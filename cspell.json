@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "language": "en,pt-BR",
+  "words": [
+    "checkout",
+    "clienteVIP",
+    "comentario",
+    "entregue",
+    "estoque",
+    "frete",
+    "Funcionario",
+    "operador",
+    "SCTEC",
+    "Shopee",
+    "sintaxe",
+    "statusPedido",
+    "ternario",
+    "transportadora"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**"
+  ]
+}
