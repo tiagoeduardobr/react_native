@@ -13,3 +13,7 @@
 - Do not use destructive Git commands unless explicitly requested.
 - Use non-interactive Git commands whenever possible.
 - If the user asks to version or commit changes, push the committed changes to the tracked remote after committing.
+
+## Study Project Rule
+
+- If the user asks how to do something in this study project, explain the steps only and do not change files or run commands unless the user explicitly asks you to do so.
