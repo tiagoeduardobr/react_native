@@ -141,11 +141,11 @@ function traduzirStatusPagamento(status) {
 // 6. Monte a mensagem final usando template literal
 // TODO: 
 // Mensagem final: monte a saída utilizando template literal, reunindo nome do cliente, faixa etária, valor com desconto aplicado e status do pagamento.
-const montarMensagemFinal = (nome, faixaEtaria, valorComDesconto, statusTraduzido) => { ... }
+const montarMensagemFinal = (nome, faixaEtaria, valorComDesconto, statusTraduzido) => {}
 
 // 7. Orquestradora: chama tudo em ordem e devolve a mensagem pronta
 // TODO: 
 // Crie uma função orquestradora que receba os dados do cliente, incluindo o array de itens, e devolva a mensagem final pronta para exibição.
-function orquestrarResumoPedido(dadosCliente) { ... }
+function orquestrarResumoPedido(dadosCliente) {}
 
 console.log(orquestrarResumoPedido(dadosCliente));
