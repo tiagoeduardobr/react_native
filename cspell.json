@@ -5,6 +5,7 @@
     "checkout",
     "clienteVIP",
     "comentario",
+    "endereco",
     "entregue",
     "estoque",
     "frete",
@@ -18,7 +19,9 @@
     "sintaxe",
     "statusPedido",
     "ternario",
-    "transportadora"
+    "transportadora",
+    "Usuario",
+    "usuarios"
   ],
   "ignorePaths": [
     "node_modules/**",
