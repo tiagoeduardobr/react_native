@@ -100,7 +100,14 @@ class Entregador extends Usuario {
   }
 }
 
-console.log(`----------------------Cliente----------------------`)
+const usuariosCadastrados = [
+  new Cliente("João", "joao@joao.com", "", "Rua Joao 35", 2000),
+  new Cliente("Maria", "maria@maria.com", "47123456789", "Rua Maria 35", 2500),
+  new Entregador("João", "joao@joao.com", "", "Moto", "MVM1224", 30),
+  new Entregador("José", "jose@jose.com", "47123456789", "Carro", "MVM1248", 45),
+];
+
+console.log(`----------------------Cliente----------------------`);
 const clienteJoao = new Cliente(
   "João",
   "joao@joao.com",
@@ -111,17 +118,17 @@ const clienteJoao = new Cliente(
 clienteJoao.exibirDadosCliente();
 const valorComDesconto = clienteJoao.calcularDesconto(100);
 console.log(`Valor com desconto: ${valorComDesconto}`);
-console.log(`----------------------Fim Cliente----------------------`)
+console.log(`----------------------Fim Cliente----------------------`);
 
-console.log(`----------------------Entregador----------------------`)
+console.log(`----------------------Entregador----------------------`);
 const entregadorJoao = new Entregador(
   "João",
   "joao@joao.com",
   "",
   "Moto",
   "MVM1224",
-  30
+  30,
 );
 
 entregadorJoao.exibirDadosEntregador();
-console.log(`----------------------Fim Entregador----------------------`)
+console.log(`----------------------Fim Entregador----------------------`);
