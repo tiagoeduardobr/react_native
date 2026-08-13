@@ -1,0 +1,29 @@
+/* Exercício apenas CSS
+Utilizando o arquivo destino.html criado no exercício anterior, crie um arquivo chamado styles.css e aplique estilos simples aos elementos da página. O objetivo é praticar seletores CSS e a conexão entre HTML e CSS através de arquivo externo.
+Passo 1 — Conecte o CSS ao HTML
+No <head> do destino.html, adicione a tag:
+<link rel="stylesheet" href="styles.css">
+O arquivo styles.css deve conter:
+Um seletor por elemento (h1) alterando cor e font-size.
+Um seletor por elemento (p) alterando font-size e line-height.
+Uma classe chamada .destaque, aplicada em uma das atrações principais, alterando cor e font-weight.
+Um id chamado #roteiro, aplicado na <div> ou <section> do roteiro do dia, alterando background-color.
+Uma estilização na tag <img> definindo width (ex.: 300px) para controlar o tamanho da imagem. */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.destaque {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+#roteiro {
+  background-color: aquamarine;
+}
