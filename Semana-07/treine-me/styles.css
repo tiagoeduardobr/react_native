@@ -1,22 +1,115 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.logo {
-  width: 106.5870590209961;
-  height: 22;
-  top: 64px;
-  left: 120px;
-  opacity: 1;
-  color: #89C5CC;
-  font-family: Inter;
-font-weight: 700;
-font-style: Bold;
-font-size: 22px;
+body {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #1f1534;
+}
 
-line-height: 26px;
-letter-spacing: 0%;
+.page {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 64px 24px 32px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #89c5cc;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 48px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #7d7987;
+  font-size: 18px;
+}
+
+.nav a.active {
+  color: #1f1534;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex: 1;
+}
+
+.left {
+  width: 560px;
+}
+
+.left h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.left h1 span {
+  color: #89c5cc;
+  font-weight: 700;
+}
+
+.left p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #7d7987;
+  margin-bottom: 40px;
+  max-width: 490px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #69b99d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.hero-image img {
+  width: 520px;
+  max-width: 100%;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  margin-top: 72px;
 }
